@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:wght@600&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1e21;
+  color: #fff;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-facebook{
+  width: 80%;
+  height: auto;
+  display:  flex;
+  flex-direction: column;
+  background-color: #292c2f;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.section-facebook header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.button-agregar {
+  height: max-content;
+  width: 180px;
+  padding: 10px 30px;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: rgb(100, 145, 255);
+  background-color: rgba(0, 140, 255, 0.385);
+  border: none;
+  border-radius: 5px;
+}
+.button-agregar:hover{
+  background-color: rgba(86, 176, 250, 0.386);
+  
+  cursor: pointer;
+}
+
+.button-eliminar {
+  height: min-content;
+  width: 180px;
+  padding: 10px 30px;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 255);
+  background-color: #cdcdcd30;
+  border: none;
+  border-radius: 5px;
+}
+.button-eliminar:hover{
+  background-color: #cdcdcd50;
+  cursor: pointer;
+}
+
+.container-sugerenciasFriends {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 1800px;
+  gap: 10px;
+  justify-content: space-around;
+  white-space: nowrap;
+  /* border: 2px solid #fff; */
+
+}
+
+.person-card {
+  height: auto;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #cdcdcd38;
+  border-radius: 10px;
+
+
+}
+.container-info{
+  display: flex;
+  padding-left: 30px;
+  /* border: 5px solid rgb(26, 255, 0); */
+  width: 100%;
+  flex-direction: column;  
+}
+.container-info h4{
+  margin: 3px 0 0  0;
+  
+ font-size: 17px;
+ /* border: 1px solid pink; */
+ 
+}
+.container-img {
+
+  display: flex;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  justify-content: center;
+
+}
+
+.friendCommon-container {
+  /* border: 3px solid saddlebrown; */
+  width: 100%;
+  height: auto;
+ display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 13px;
+  align-items: center;
+}
+.friendCommon-container p{
+  margin: 0;
+}
+
+.friend-img {
+  /* border: 3px solid blue; */
+
+  width: 20px; /* Ajusta el ancho del contenedor según tus necesidades */
+  height: 20px; /* Ajusta la altura del contenedor según tus necesidades */
+  overflow: hidden; /* Oculta cualquier contenido que exceda el tamaño del contenedor */
+  border-radius: 50%; /* Aplica un borde circular al contenedor */
+  position: relative;
+  
+}
+
+.friend-img img {
+  width: 100%; /* Asegura que la imagen llene todo el contenedor */
+  height: 100%; /* Asegura que la imagen llene todo el contenedor */
+  object-fit: cover; /* Ajusta la imagen para que cubra todo el espacio disponible */
+  border-radius: 50%; /* Aplica un borde circular a la imagen */
+
+}
+
+.container-buttons{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10px ;
+}
+
+.button-tresPuntos{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 4px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-tresPuntos:hover {
+  background-color: #cdcdcd50;
+  cursor: pointer;
+}
+
+.button-verMas{
+  width:98%;
+  
+  background-color: transparent;
+  border: none;
+  padding: 10px 30px;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: rgb(24, 89, 254);
+  border-radius: 5px;
+  align-items: center;
+  margin:7px;
+}
+
+.button-verMas:hover{
+  background-color: #cdcdcd30;
+  cursor: pointer;
+}
+
+.section-facebook-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+}
+.button-delante{
+  background-color:#cdcdcd30;
+  display: flex;
+  top: 200px;
+  height: 50px;
+  width: 50px;
+  margin-left:20px;
+  position:absolute;
+  border-radius: 50%;
+  
+}
+.button-delante:hover {
+  background-color: #cdcdcd30;
+  cursor: pointer;
+}
+.button-atras{
+  background-color:#cdcdcd30;
+  height: 50px;
+  width: 50px;
+  top: 200px;
+  margin-left:490px;
+  position:absolute;
+  color: #fff;
+  border-radius: 50%;
+  
+}
+
+.button-atras:hover {
+  background-color: #cdcdcd30;
+  cursor: pointer;
+}
